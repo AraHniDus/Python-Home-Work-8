@@ -55,10 +55,7 @@ def __init__(self):
 ```
 ![](Удаление.png)
 
-
-
-
-![](Удаление 2.png)
+![](Удал.png)
 
 ## Поиск данных.
 1.Функция для поиска данных.    
@@ -70,7 +67,7 @@ def search_records(self, description):
         [self.tree.insert('', 'end', values=row) for row in self.db.c.fetchall()]
 ```
 ![](Поиск.png)
-![](Поиск 2.png)
+![](По.png)
 
 
 
